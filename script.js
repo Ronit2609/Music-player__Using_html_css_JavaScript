@@ -1,4 +1,4 @@
-console.log("Welcome to Spotify");
+console.log("Welcome to Music Player");
 
 // Initialize the Variables
 let songIndex = 0;
@@ -106,4 +106,5 @@ document.getElementById('previous').addEventListener('click', ()=>{
     audioElement.play();
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+
 })
